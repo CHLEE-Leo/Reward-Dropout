@@ -19,6 +19,9 @@ figure1.pdf
 !code/plot_train_reward_comparison_by_model_all.py
 !code/plot_train_reward_comparison_with_init_model.py
 
+!code/plot_train_reward_*.sh
+!code/RLHF_train_*.sh
+
 # /code 디렉토리의 무시할 파일들
 code/pos_game_bootstrap.py
 code/reward_LLM.py
