@@ -1,0 +1,176 @@
+# ---------------------------------------------------------------------------- #
+# 최상위 디렉토리의 무시할 파일들
+preprocess_new.py
+utils_for_preprocess.py
+*.pdf
+*.jpg
+*.png
+figure1.pdf
+
+# ---------------------------------------------------------------------------- #
+# /code 디렉토리의 고려할 파일들
+!code/*_LLM.py 
+
+!code/set_preprocessed_np_data.py
+!code/finetune_BERT.py
+!code/plot_train_reward_all.py
+
+!code/plot_train_reward_comparison_by_model.py
+!code/plot_train_reward_comparison_by_model_all.py
+!code/plot_train_reward_comparison_with_init_model.py
+
+# /code 디렉토리의 무시할 파일들
+code/pos_game_bootstrap.py
+code/reward_LLM.py
+code/finetune_GPT.py
+code/model_lm.py
+code/model_rm.py
+code/tmp_note.py
+code/train_lm.py
+code/train_rl.py
+code/train_rm.py
+code/synthetic_analysis_test.py
+code/main.py
+code/pos_game_data.py
+code/train_pos_game_agent.py
+code/evaluate_pos_game_agent.py
+code/train_function_*.py
+code/model_agent.py
+code/reinforce_LLM_copy.py
+code/_*.py
+
+# /code 디렉토리의 .sh 확장자 전부 무시
+code/*.sh
+
+# /code 디렉토리의 .sh 확장자 중 고려할 파일들
+# !code/train_pos_game_agent*.sh
+# !code/train_pos_game_agent_tmp.sh
+# !code/generate_pos_game_data.sh
+# !code/train_pos_game_agent.sh
+# !code/evaluate_pos_game_agent.sh
+!code/plot_additional_analysis.sh
+!code/evaluate_LLM.sh
+
+# !code/rl_stochastic_quantile_gpt2_large*.sh
+# !code/rl_stochastic_quantile_gpt2_small_init_weight*.sh
+# !code/rl_stochastic_quantile_opt*.sh
+# !code/rl_stochastic_quantile_xglm*.sh
+
+# !code/plot_train_reward_comparison_by_model.sh
+# !code/plot_train_reward_comparison_by_model_all.sh
+# !code/plot_train_reward_comparison_with_init_model.sh
+
+# ---------------------------------------------------------------------------- #
+
+# 2-1) data 폴더의 파일들 무시
+data/*
+
+# # 2-2) data 폴더의 특정 파일들 고려
+# !data/dialog
+# !data/politeness
+# !data/sentiment
+# !data/topic
+# !data/toxicity
+
+# ---------------------------------------------------------------------------- #
+# 3) prep_data 폴더의 하위폴더들 무시 (단 .gitkeep 사용하여 특정 폴더는 살려두기)
+
+prep_data/*
+# prep_data/datasets.tar.gz
+# !prep_data/.gitkeep
+
+# prep_data/act/*
+# # !prep_data/act/.gitkeep
+
+# prep_data/emotion/*
+# # !prep_data/emotion/.gitkeep
+
+# prep_data/politeness/*
+# # !prep_data/politeness/.gitkeep
+
+# prep_data/sentiment/*
+# # !prep_data/sentiment/.gitkeep
+
+# prep_data/topic/*
+# # !prep_data/topic/.gitkeep
+
+# prep_data/toxicity/*
+# # !prep_data/toxicity/.gitkeep
+
+# prep_data/position-game/*
+# # !prep_data/position-game/.gitkeep
+
+# 4) pretrained_weights 폴더의 파일들 무시 (단 .gitkeep 사용하여 특정 폴더는 살려두기)
+pretrained_weights/*
+# # !pretrained_weights/.gitkeep
+
+# 5) weights 폴더의 파일들 무시 (단 .gitkeep 사용하여 특정 폴더는 살려두기)
+weights/*
+# !weights/.gitkeep
+
+# ---------------------------------------------------------------------------- #
+# 6) results 폴더의 특정 하위폴더들 무시 (단 .gitkeep 사용하여 특정 폴더는 살려두기)
+results/act/*
+results/emotion/*
+results/politeness/*
+results/sentiment/*
+results/topic/*
+results/toxicity/*
+results/position-game/*
+
+# results/emotion-1/*
+!results/emotion-1/.gitkeep
+
+# results/emotion-2/*
+!results/emotion-2/.gitkeep
+
+# results/emotion-3/*
+!results/emotion-3/.gitkeep
+
+# results/emotion-4/*
+!results/emotion-4/.gitkeep
+
+# results/emotion-5/*
+!results/emotion-5/.gitkeep
+
+# results/emotion-6/*
+!results/emotion-6/.gitkeep
+
+# results/politeness-0/*
+!results/politeness-0/.gitkeep
+
+# results/politeness-1/*
+!results/politeness-1/.gitkeep
+
+# results/sentiment-0/*
+!results/sentiment-0/.gitkeep
+
+# results/sentiment-1/*
+!results/sentiment-1/.gitkeep
+
+# results/topic-0/*
+!results/topic-0/.gitkeep
+
+# results/topic-1/*
+!results/topic-1/.gitkeep
+
+# results/topic-2/*
+!results/topic-2/.gitkeep
+
+# results/topic-3/*
+!results/topic-3/.gitkeep
+
+# results/toxicity-0/*
+!results/toxicity-0/.gitkeep
+
+# results/toxicity-1/*
+!results/toxicity-1/.gitkeep
+
+# results/position-game/*
+# !results/position-game/.gitkeep
+
+# results/*
+# !results/.gitkeep
+
+# # 7)
+# params/*

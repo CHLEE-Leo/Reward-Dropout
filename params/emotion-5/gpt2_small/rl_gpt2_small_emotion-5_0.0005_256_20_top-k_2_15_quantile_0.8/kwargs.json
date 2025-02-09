@@ -1,0 +1,1 @@
+{"task": "rl", "behavior_model": "gpt2_small", "dataset": "emotion-5", "rl_lr": 0.0005, "batch_size": 256, "num_epoch": 20, "decoding": "top-k", "prefix_len": 2, "gen_len": 15, "dropout": "quantile", "dropout_rate": 0.8}

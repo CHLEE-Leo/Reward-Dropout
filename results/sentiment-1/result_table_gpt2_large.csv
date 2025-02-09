@@ -1,0 +1,3 @@
+rl_model,dropout,dropout_rate,train_acc,train_reward
+gpt2_large,None,0.0,0.2051320062489239,0.859012137053918
+gpt2_large,quantile,0.8,0.3563787408337518,0.7957142630670562

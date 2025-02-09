@@ -1,0 +1,1 @@
+{"task": "rl", "behavior_model": "gpt2_small", "dataset": "politeness-1", "rl_lr": 0.0005, "batch_size": 256, "num_epoch": 20, "decoding": "stochastic", "prefix_len": 2, "gen_len": 15, "dropout": "None", "dropout_rate": 0.0}

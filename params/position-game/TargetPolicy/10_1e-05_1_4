@@ -1,0 +1,13 @@
+{
+	"model_name": "TargetPolicy",
+	"task": "position-game",
+	"batch_size": 10,
+	"lr": 1e-05,
+	"d_model": 256,
+	"d_embed": 64,
+	"num_layers": 4,
+	"action_size": 10,
+	"epi_len": 10,
+	"num_epoch": 1,
+	"num_cases": 6
+}
